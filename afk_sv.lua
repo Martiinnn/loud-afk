@@ -6,7 +6,3 @@ AddEventHandler("loud:afk:update", function(msg)
     TriggerClientEvent('loud:MostrarTodos', -1, msg, src)
 
 end)
-
-
-
-
