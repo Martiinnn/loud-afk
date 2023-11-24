@@ -10,10 +10,9 @@ shared_scripts {
 }
 
 client_script {
-    'client/*.lua'
+    'afk.lua'
 }
 
 server_scripts {
-    'server/*.lua',
-    '@oxmysql/lib/MySQL.lua'
+    'afk_sv.lua'
 }
